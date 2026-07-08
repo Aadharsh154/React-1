@@ -17,7 +17,6 @@ function Profile(){
       let Name = user.type;
       if(Name == "User"){
         getUser(user)
-        console.log(user)
       }
       else{
         alert("Pease Enter a valid Username")
